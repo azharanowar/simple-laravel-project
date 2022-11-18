@@ -19,3 +19,5 @@ use App\Http\Controllers\HomeController;
 //});
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+
+Route::get('/single-blog', [HomeController::class, 'blogDetails']);

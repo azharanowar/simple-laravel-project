@@ -9,4 +9,8 @@ class HomeController extends Controller
     public function index() {
         return view('frontEnd.home.home');
     }
+
+    public function blogDetails() {
+        return view('frontEnd.home.single-blog');
+    }
 }
